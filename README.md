@@ -1,1 +1,1 @@
-# scentista_store
+# scentista.in
