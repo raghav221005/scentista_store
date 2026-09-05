@@ -387,14 +387,14 @@
   <script>
     const WHATSAPP_PHONE = "918171742228";
 
-    // Products mapped to local images folder with fallback to luxury bottle images
+    // All images mapped directly to your uploaded folder 'perfume.jpeg/'
     const products = [
       {
         id: 1,
         brand: "Afnan",
         name: "Supremacy Collector's Edition",
         prices: { "5ml": 349, "10ml": 649 },
-        img: "supermacy.jpeg",
+        img: "perfume.jpeg/supermacy.jpeg",
         fallback: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=600"
       },
       {
@@ -402,15 +402,15 @@
         brand: "Lattafa",
         name: "Teriaq Intense",
         prices: { "5ml": 319, "10ml": 549 },
-        img: "images/teriaq-intense.jpg",
+        img: "perfume.jpeg/terriage%20intense.jpeg",
         fallback: "https://images.unsplash.com/photo-1547887537-6158d64c35b3?w=600"
       },
       {
         id: 3,
         brand: "Jean Paul Gaultier",
-        name: "le male elixir parfum",
-        prices: { "5ml":649, "10ml": 1149 },
-        img: "jpg.jpeg",
+        name: "Le Male Elixir Parfum",
+        prices: { "5ml": 649, "10ml": 1149 },
+        img: "perfume.jpeg/jpg.jpeg",
         fallback: "https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=600"
       },
       {
@@ -418,15 +418,15 @@
         brand: "Rasasi",
         name: "Hawas For Him",
         prices: { "5ml": 299, "10ml": 549 },
-        img: "images/hawas.jpg",
+        img: "perfume.jpeg/hawas%20for%20him.jpeg",
         fallback: "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=600"
       },
       {
         id: 5,
         brand: "Rasasi",
-        name: "Hawas Ice ",
+        name: "Hawas Ice",
         prices: { "5ml": 349, "10ml": 649 },
-        img: "images/hawas-ice.jpg",
+        img: "perfume.jpeg/Hawas%20Ice.jpeg",
         fallback: "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?w=600"
       },
       {
@@ -434,7 +434,7 @@
         brand: "Armaf",
         name: "Club De Nuit Iconic",
         prices: { "5ml": 399, "10ml": 749 },
-        img: "images/cdnim-iconic.jpg",
+        img: "perfume.jpeg/iconic.jpeg",
         fallback: "https://images.unsplash.com/photo-1615397349754-cfa2066a298e?w=600"
       },
       {
@@ -442,7 +442,7 @@
         brand: "Armaf",
         name: "Club De Nuit Intense Man (CDNIM)",
         prices: { "5ml": 399, "10ml": 749 },
-        img: "images/cdnim.jpg",
+        img: "perfume.jpeg/cdn%20intense.jpeg",
         fallback: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=600"
       },
       {
@@ -450,15 +450,15 @@
         brand: "Arabiyat Prestige",
         name: "Marwa",
         prices: { "5ml": 349, "10ml": 649 },
-        img: "images/marwa.jpg",
+        img: "perfume.jpeg/marwa.jpeg",
         fallback: "https://images.unsplash.com/photo-1547887537-6158d64c35b3?w=600"
       },
       {
         id: 9,
         brand: "Paris Corner",
-        name: "Khair Pistachio",
+        name: "Paris Corner Collection",
         prices: { "5ml": 219, "10ml": 349 },
-        img: "images/khair-pistachio.jpg",
+        img: "perfume.jpeg/paris%20corner.jpeg",
         fallback: "https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=600"
       },
       {
@@ -466,7 +466,7 @@
         brand: "Nautica",
         name: "Nautica Voyage",
         prices: { "5ml": 199, "10ml": 349 },
-        img: "images/nautica.jpg",
+        img: "perfume.jpeg/Nautica.jpeg",
         fallback: "https://images.unsplash.com/photo-1541643600914-78b084683601?w=600"
       },
       {
@@ -474,7 +474,7 @@
         brand: "Scentista Private Blend",
         name: "La-Di-Da For Him",
         prices: { "5ml": 349, "10ml": 649 },
-        img: "images/ladida.jpg",
+        img: "perfume.jpeg/la%20di%20da.jpeg",
         fallback: "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?w=600"
       },
       {
@@ -482,7 +482,7 @@
         brand: "Riffs",
         name: "Wonder Of You Pour Homme",
         prices: { "10ml": 299 },
-        img: "images/wonder-of-you.jpg",
+        img: "perfume.jpeg/wonder%20of%20you.jpeg",
         fallback: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=600"
       },
       {
@@ -490,7 +490,7 @@
         brand: "NS 34",
         name: "Wild Escape EDP",
         prices: { "10ml": 349 },
-        img: "images/wild-escape.jpg",
+        img: "perfume.jpeg/wildscape.jpeg",
         fallback: "https://images.unsplash.com/photo-1615397349754-cfa2066a298e?w=600"
       }
     ];
